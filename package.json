@@ -1,0 +1,38 @@
+{
+  "name": "vue-webpack",
+  "version": "1.0.0",
+  "description": "develope with webpack init",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./build/webpack.config.dev.js",
+    "build": "webpack --config ./build/webpack.config.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taerinlee/vue-webpack.git"
+  },
+  "author": "Tay Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taerinlee/vue-webpack/issues"
+  },
+  "homepage": "https://github.com/taerinlee/vue-webpack#readme",
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-router": "^3.0.2"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^1.0.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "css-loader": "^5.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "url-loader": "^1.1.2",
+    "vue-loader": "^15.9.4",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.1"
+  }
+}
