@@ -1,7 +1,17 @@
 <template>
-    <div class="sample">
-        vue webpack project
-        <img src="/assets/img/hello.png" alt="" />
+    <div>
+        <div>
+            1234567vue webpack project라이프플러스
+            <img src="/assets/img/hello.png" alt="" />
+        </div>
+        <div class="sample">
+            1234567vue webpack project라이프플러스
+            <img src="/assets/img/hello.png" alt="" />
+        </div>
+        <div class="sample2">
+            1234567vue webpack project라이프플러스
+            <img src="/assets/img/hello.png" alt="" />
+        </div>
     </div>
 </template>
 
@@ -12,9 +22,6 @@ export default {
 </script>
 
 <style>
-.sample {
-    background-color: green;
-}
 </style>
 
 

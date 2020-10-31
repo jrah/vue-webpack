@@ -1,10 +1,20 @@
 const { VueLoaderPlugin } = require('vue-loader');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const path = require('path')
+
+function resolve (dir) {
+  return path.join(__dirname, '..', dir)
+}
 
 module.exports = {
     entry: {
         main: './src/main.js'
+    },
+    resolve: {
+        alias: {
+          '@': resolve('src'),
+        }
     },
     module: {
         rules: [
