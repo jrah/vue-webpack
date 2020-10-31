@@ -1,14 +1,14 @@
 <template>
     <div>
-        <div>
+        <div class="font1">
             1234567vue webpack project라이프플러스
             <img src="/assets/img/hello.png" alt="" />
         </div>
-        <div class="sample">
+        <div class="font2">
             1234567vue webpack project라이프플러스
             <img src="/assets/img/hello.png" alt="" />
         </div>
-        <div class="sample2">
+        <div class="description">
             1234567vue webpack project라이프플러스
             <img src="/assets/img/hello.png" alt="" />
         </div>
